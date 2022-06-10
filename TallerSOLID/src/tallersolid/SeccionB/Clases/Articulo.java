@@ -4,15 +4,10 @@
  */
 package tallersolid.SeccionB.Clases;
 
-import tallersolid.SeccionB.Metodos.PagoI;
-
 /**
  *
  * @author EmilioSG23
  */
-public class Pago implements PagoI{
-    //atributos aquí
-    public void realizarCobro(double monto){
-        //cargar el monto de compra al medio de pago
-    }
+public class Articulo {
+    
 }

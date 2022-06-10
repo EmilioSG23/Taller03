@@ -4,6 +4,8 @@
  */
 package tallersolid.SeccionB.Clases;
 
+import java.util.List;
+
 /**
  *
  * @author EmilioSG23
@@ -19,13 +21,5 @@ public class Compra {
     
     public Compra(PagoPayPal pagoPayPal){
         //inicializaciones
-    }
-    
-    public void agregarArticulo(Articulo articulo){
-        //agregar un artículo a la compra
-    }
-    
-    public void removerArticulo(Articulo articulo){
-        //remover un articulo a la compra
     }
 }

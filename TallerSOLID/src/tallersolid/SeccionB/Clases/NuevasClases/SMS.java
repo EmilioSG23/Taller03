@@ -2,17 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tallersolid.SeccionB.Clases;
+package tallersolid.SeccionB.Clases.NuevasClases;
 
-import tallersolid.SeccionB.Metodos.PagoI;
+import tallersolid.SeccionB.Clases.Notificacion;
+import tallersolid.SeccionB.Clases.Pago;
 
 /**
  *
  * @author EmilioSG23
  */
-public class Pago implements PagoI{
-    //atributos aquí
-    public void realizarCobro(double monto){
-        //cargar el monto de compra al medio de pago
+public class SMS extends Notificacion{
+    public void notificar(Pago pago){
+        //enviarSMS();
     }
 }

@@ -2,15 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tallersolid.SeccionA.DIP.BuenPrincipio;
+package tallersolid.SeccionB.Clases.NuevasClases;
 
 /**
  *
  * @author EmilioSG23
  */
-public class Repositorio {
-    public static BaseDeDatos getBase(){
-        BaseDeDatos bd=(BaseDeDatos) BaseDeDatos.getSQL();
-        return bd;
-    }
+public class Factura {
+    //Atributos
 }

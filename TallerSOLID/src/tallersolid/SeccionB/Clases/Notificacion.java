@@ -8,14 +8,6 @@ package tallersolid.SeccionB.Clases;
  *
  * @author EmilioSG23
  */
-public class Notificacion {
-    private int tipoNotificacion;
-    
-    public void notificar(Pago pago){
-        if(tipoNotificacion==1){
-            //enviarEmail()
-        }else{
-            //enviarSMS()
-        }
-    }
+public abstract class Notificacion {
+    public abstract void notificar(Pago pago);
 }
